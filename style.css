@@ -18,7 +18,7 @@ p {
 .flexible-content {
     display: flex;
     margin-bottom: 150px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 }
 
 .half {
@@ -45,4 +45,86 @@ p {
     background-image: url(img/Frame\ 59.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+footer {
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 5px 40px;
+    background-color: ;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+}
+
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    box-sizing: content-box;
+    padding: 5px 40px;
+    background-color: #fff;
+}
+
+.follower h3 {
+    text-align: center;
+}
+
+
+
+.social {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.follower {
+    width: 100px;
+    height: 100px;
+    padding: 10px 120px;
+    text-align: left;
+}
+
+.social {
+    box-sizing: border-box;
+    margin: 95px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: #FFF;
+}
+
+.menu {
+    box-sizing: border-box;
+    margin: 10px 40px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 10px 40px;
+}
+
+.recipies {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.menu img {
+    max-width: 100%;
+    max-height: auto;
+    padding-top: 30px;
 }
